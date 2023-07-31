@@ -1,6 +1,6 @@
 Task 1(Calculator)=https://github.com/RahulKakani9999/OIBSIP/tree/main/Task%201
 
-Task 2(Tribute Page)=https://github.com/RahulKakani9999/Oasis/tree/main/Task%202
+Task 2(Tribute Page)=https://github.com/RahulKakani9999/OIBSIP/tree/main/Task%202
 
 Task 3(Todo App)=https://github.com/RahulKakani9999/Oasis/tree/main/Task%203
 
