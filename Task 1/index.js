@@ -1,12 +1,12 @@
-let outputScreen = document.getElementById("output-screen");
+let os = document.getElementById("output-screen");
 
 function display(num){
-    outputScreen.value += num;
+    os.value += num;
 }
 
 function Calculate(){
     try{
-        outputScreen.value = eval(outputScreen.value);
+        os.value = eval(os.value);
     }
     catch(err)
     {
@@ -15,51 +15,51 @@ function Calculate(){
 }
 
 function Clear(){
-    outputScreen.value = "";
+    os.value = "";
 }
 
 function del(){
-    outputScreen.value = outputScreen.value.slice(0,-1);
+    os.value = os.value.slice(0,-1);
 }
 
 function log(){
-    outputScreen.value = Math.log(outputScreen.value);
+    os.value = Math.log(os.value);
 }
 
 function pow(){
-    outputScreen.value = Math.pow(outputScreen.value,2);
+    os.value = Math.pow(os.value,2);
 }
 
 function pi(){
-    outputScreen.value = 3.14;
+    os.value = 3.14;
 }
 
 function sin(){
-    outputScreen.value = Math.sin(outputScreen.value);
+    os.value = Math.sin(os.value);
 }
 
 function cos(){
-    outputScreen.value = Math.cos(outputScreen.value);
+    os.value = Math.cos(os.value);
 }
 
 function tan(){
-    outputScreen.value = Math.tan(outputScreen.value);
+    os.value = Math.tan(os.value);
 }
 
 function sqrt(){
-    outputScreen.value = Math.sqrt(outputScreen.value);
+    os.value = Math.sqrt(os.value);
 }
 
 function e(){
-    outputScreen.value = 2.718;
+    os.value = 2.718;
 }
 
 function factorial(){
     let i, num, fact=1;
-    num = outputScreen.value;
+    num = os.value;
     for(i=1;i<=num;i++){
         fact = fact * i;
     }
     i = i - 1;
-    outputScreen.value = fact;
+    os.value = fact;
 }
